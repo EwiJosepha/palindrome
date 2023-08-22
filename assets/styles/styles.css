@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,13 +9,13 @@
   height: 400px;
 }
 
-#name{
+#name {
   margin: 0 auto;
   padding: 10px;
   color: #fff;
 }
 
-.carier{
+.carier {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
   border-radius: 10%;
 }
 
-#start{
+#start {
   align-items: center;
   background-color: #ff00ff;
   margin: 0 auto;
@@ -47,17 +47,17 @@
   border-radius: 8px;
 } */
 
-#check{
+#check {
   background-color: #6495ed;
   color: #808080;
   margin: 0 auto;
   width: 150px;
   padding: 20px;
-  border: 1px solid #ede;
+  border: 1px solid #edddee;
   border-radius: 8px;
 }
 
-#display{
+#display {
   background-color: #ff00ff;
   margin: 0 auto;
   width: 150px;
