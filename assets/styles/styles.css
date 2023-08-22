@@ -29,7 +29,7 @@
 
 #start {
   align-items: center;
-  background-color: #ff00ff;
+  background-color: #f0f;
   margin: 0 auto;
   width: 100px;
   padding: 20px;
@@ -58,10 +58,10 @@
 }
 
 #display {
-  background-color: #ff00ff;
+  background-color: #f0f;
   margin: 0 auto;
   width: 150px;
   height: fit-content;
   padding: 20px;
-  border: 2px solid #ff00ff;
-} 
+  border: 2px solid #f0f;
+}
