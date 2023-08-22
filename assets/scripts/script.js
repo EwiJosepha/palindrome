@@ -1,9 +1,8 @@
 const check = document.getElementById('check')
 const displayy = document.getElementById('display')
 
-function palindrom() {
-  let enterr = document.getElementById('start').value
-
+function palindrom(){
+  const enterr = document.getElementById('start').value
   let result = ''
   result = enterr.split('').reverse().join('')
 
