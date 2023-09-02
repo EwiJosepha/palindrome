@@ -7,7 +7,7 @@ function palindrom () {
   const restrictSymbols = enterr.replace(/[^a-zA-Z]/g, '').toLowerCase()
   result = restrictSymbols.split('').reverse().join('')
 
-// console.log('this is result', result)
+  // console.log('this is result', result)
   // console.log('this is input', enterr)
 
   if (restrictSymbols === result) {
