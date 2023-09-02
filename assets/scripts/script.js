@@ -1,7 +1,7 @@
 const check = document.getElementById('check')
 const displayy = document.getElementById('display')
 
-function palindrom() {
+function palindrom () {
   const enterr = document.getElementById('start').value
   let result = ''
   if (enterr === '') {
@@ -26,7 +26,7 @@ function palindrom() {
     }
   }
 
-  console.log(restrictSymbols)
+  // console.log(restrictSymbols)
 }
 
 check.addEventListener('click', palindrom)
