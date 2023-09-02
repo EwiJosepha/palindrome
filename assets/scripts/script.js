@@ -4,13 +4,13 @@ const displayy = document.getElementById('display')
 function palindrom () {
   const enterr = document.getElementById('start').value
   let result = ''
-  const restrictSymbols = enterr.replace(/[^a-zA-Z]/g, '').toLowerCase()
+  const restrictSymbols = enterr.replace(/[^a-z0-9]/g, '').toLowerCase()
   result = restrictSymbols.split('').reverse().join('')
 
   // console.log('this is result', result)
   // console.log('this is input', enterr)
 
-  if (restrictSymbols === result) {
+  if (restrictSymbols == result) {
     displayy.innerHTML = 'it is a palindrome'
     console.log('it is a palindrome')
 
