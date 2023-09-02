@@ -36,7 +36,7 @@ header p {
 }
 
 #start {
-  width: 95%;
+  width: 98%;
   height: 60px;
   outline: none;
   border: 2px solid #999;
@@ -46,7 +46,7 @@ header p {
 }
 
 #check {
-  width: 95%;
+  width: 100%;
   height: 55px;
   outline: none;
   margin-top: 20px;
@@ -65,79 +65,3 @@ header p {
   font-size: 18px;
   margin-top: 15px;
 }
-
-
-
-
-
-
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background-color: #808080;
-  width: 550px;
-  height: 400px;
-}
-
-#name {
-  margin: 0 auto;
-  padding: 10px;
-  color: #fff;
-}
-
-.carier {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px 10px;
-  background-color: #000;
-  width: 200px;
-  gap: 5px;
-  border-radius: 10%;
-}
-
-#start {
-  align-items: center;
-  background-color: #e208e2;
-  color: #fff;
-  margin: 0 auto;
-  width: 100px;
-  padding: 20px;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-}
-
-/* #end{
-  background-color: #ff00ff;
-  margin: 0 auto;
-  width: 100px;
-  padding: 20px;
-  border: none;
-  border-radius: 8px;
-} */
-/* 
-#check {
-  background-color: #ffa500;
-  color: #808080;
-  margin: 0 auto;
-  width: 150px;
-  padding: 20px;
-  border: 1px solid #edddee;
-  border-radius: 8px;
-}
-
-#display {
-  background-color: #000;
-  color: #fff;
-  margin: 0 auto;
-  width: 150px;
-  height: fit-content;
-  padding: 20px;
-  border: 2px solid #f0f; */
-/* } */ 
