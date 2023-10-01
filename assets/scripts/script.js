@@ -12,13 +12,11 @@ function palindrom () {
     const restrictSymbols = enterr.replace(/[\s\w\d_]/gi, '').toLowerCase()
     result = restrictSymbols.split('').reverse().join('')
 
-     // checking whether or not its a palindrome
+    // checking whether or not its a palindrome
 
     if (restrictSymbols === result) {
       displayy.innerHTML = 'it is a palindrome'
       console.log('it is a palindrome')
-
-      // return "it is a palindrome"
 
     } else {
       displayy.innerHTML = 'it is not a palindrome'
