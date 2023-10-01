@@ -7,7 +7,7 @@ function palindrom () {
   if (enterr === '') {
     displayy.innerHTML = ' type a text or number'
   } else {
-    const restrictSymbols = enterr.replace(/[^a-z0-9]/g, '').toLowerCase()
+    const restrictSymbols = enterr.replace(/[\s\w\d_]/gi, '').toLowerCase()
     result = restrictSymbols.split('').reverse().join('')
 
     // console.log('this is result', result)
