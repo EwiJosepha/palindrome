@@ -1,27 +1,32 @@
-// const check = document.getElementById("check");
-// const displayy = document.getElementById("display");
+const check = document.getElementById('check')
+const displayy = document.getElementById('display')
 
-// function palindrom() {
-//   let enterr = document.getElementById("start").value;
+// getting rid of symbols, numbers and speial characters
 
-//   let result = "";
-//   result = enterr.split("").reverse().join("");
+function palindrom () {
+  const enterr = document.getElementById('start').value
+  let result = ''
+  if (enterr === '') {
+    displayy.innerHTML = ' type a text or number'
+  } else {
+    const restrictSymbols = enterr.replace(/[\s\w\d_]/gi, '').toLowerCase()
+    result = restrictSymbols.split('').reverse().join('')
 
-//   // console.log('this is result', result)
-//   // console.log('this is input', enterr)
+    // checking whether or not its a palindrome
 
-//   if (enterr === result) {
-//     displayy.innerHTML = "it is a palindrome";
-//     console.log("it is a palindrome");
+    if (restrictSymbols === result) {
+      displayy.innerHTML = 'it is a palindrome'
+      console.log('it is a palindrome')
 
-//     // return "it is a palindrome"
-//   } else {
-//     displayy.innerHTML = "it is not a palindrome";
-//     console.log("it is not a palindrome");
+    } else {
+      displayy.innerHTML = 'it is not a palindrome'
+      console.log('it is not a palindrome')
 
-//     // return "it is not a palindrome"
-//   }
-//   console.log(enterr);
-// }
+      // return 'it is not a palindrome'
+    }
+  }
 
-// check.addEventListener("click", palindrom)
+  // console.log(restrictSymbols)
+}
+
+check.addEventListener('click', palindrom)
